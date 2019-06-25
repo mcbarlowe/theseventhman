@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  position:fixed;
+  top: 0px;
+  background-color: rgba(255,255,255,1);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-link:hover {
+  color: #566D7E;
+}
+
+.flex ul li {
+  list-style: none;
+  display: inline-block;
+  margin 0px 20px 0px 0px;
+  margin: 0px 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+
+.flex img {
+  display: inline-block;
+}
+
+body {
+  margin-top: 75px;
+}
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+h2 {
+  padding: 5px;
+}
+.desc h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom; 20px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.text-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+#banner {
+    color: hsla(34, 83%, 99%, 1);
+    font-weight: 500;
+    font-size: 80px;
+    padding: 80px 20px;
+    line-height: 1;
+    text-align: center;
+    background: radial-gradient(ellipse, #566D7E 50%, #646D7E 100%);
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+.form input[type="email"]{
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+.form input[type="submit"] {
+  background-color: #566D7E;
+  font-color: white;
+  max-width: 170px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 50px auto;
+}
+.grid {
+  display: flex;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 20vw;
+  color: #566D7E;
+}
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  align-items: baseline;
+  width: 60vw;
+}
+#features {
+  margin-top: 50px;
+}
+#video1{
+  display: flex;
+  justify-content: center;
+}
+
+#video > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+.video_section {
+  margin-top: 50px;
+}
+@media (max-width: 800px) {
+  #nav-bar{
+    flex-direction: column;
+  }
+}

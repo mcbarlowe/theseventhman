@@ -1,13 +1,64 @@
-<html>
-  <head>
-    <style>
-      body {
-        background-image: url(img/background.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-    </style>
-  </head>
-  <body>
-  </body>
-</html>
+<head>
+  <script src="https://kit.fontawesome.com/579539f241.js"></script>
+  <script type="text/javascript">
+    function saveFormAsTextFile() {
+      var textToSave = document.getElementById('email').value + '\n';
+      alert(textToSave)
+    }
+  </script>
+  <link rel="stylesheet" type"text/css" href="index.css">
+</head>
+<header class="flex" id="header">
+    <img src="https://github.com/mcbarlowe/theseventhman/blob/master/img/logo.png?raw=true" style="width:50px;height:50px;padding-right:10px;" id="header-img" alt"The Seventh Man Logo">
+  <div class="header">
+    <h1>The Seventh Man</h1>
+    <nav id="nav-bar">
+      <ul id="header_menu">
+        <li><a class="nav-link" href="#features">Stats</a></li>
+        <li><a class="nav-link" href="#video1">Articles</a></li>
+        <li><a class="nav-link" href="#charts">Charts</a></li>
+        <li><a class="nav-link" href="#predictions">Predictions</a></li>
+        <li><a class="nav-link" href="#charts">Glossary</a></li>
+         <li><a class="nav-link" href="#predictions">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<body>
+  <h1 id="banner">Welcome to The Seventh Man</h1>
+  <div class="text-container">
+    <h2>A new site focused on NBA statistics</h2>
+  </div>
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="far fa-3x fa-newspaper"></i></div>
+        <div class="desc">
+            <h1>Original Articles</h1>
+            <p>We will be writing unique analysis on the NBA using advanced statistical and machine learning methods.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fas fa-3x fa-chart-line"></i></div>
+        <div class="desc" id="charts">
+            <h1>Charts</h1>
+            <p>We will provide you will all the charts you could ever want.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fas fa-3x fa-calculator"></i></div>
+        <div class="desc" id="predictions">
+            <h1>Predictions</h1>
+            <p>We will bring pregame and in game win probabilities for every game next season.</p>
+        </div>
+      </div>
+    </section>
+    <div class="video_section">
+      <section id="video1">
+        <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/9oVwGZXgIaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+    </div>
+  </div>
+
+
+</body>
