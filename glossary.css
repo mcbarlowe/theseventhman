@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #566D7E !important;
+}
+body {
+  margin-top: 75px;
+}
+
+/*styling for the header/banner on the page*/
+.fullheader {
+  position:fixed;
+  top: 0px;
+  background-color: rgba(255,255,255,1);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.headercomponents {
+  display: inline-block;
+  padding: 5px;
+}
+
+.headercomponents li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 4px;
+  padding: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+.headercomponents img {
+  margin-top: 4px;
+}
+
+/* style for main page id banner */
+#banner {
+  color: hsla(34, 83%, 99%, 1);
+  font-weight: 500;
+  font-size: 80px;
+  padding: 80px 20px;
+  margin-left: 200px;
+  line-height: 1;
+  text-align: center;
+  background: radial-gradient(ellipse, #566D7E 50%, #646D7E 100%);
+}
+
+/*style for navigation bar on the left side of the page for the glossary*/
+#navbar {
+  position: fixed;
+  min-width: 200px;
+  top: 75px;
+  left: 0px;
+  width: 100px;
+  height: 100%;
+  border-right: solid;
+  border-color: #646D7E;
+}
+header {
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: thin;
+}
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li {
+  padding: 5px;
+  list-style: none;
+  margin-left: 10px;
+}
+
+/*Style for actual content of the glossary*/
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  z-index: -1;
+}
+.main-section li {
+  margin-left: 30px;
+}
+
+/*This makes it so the anchor tags don't hide behind the header*/
+#fgm {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#fga {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#toc {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#tpm {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#tpa {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#ftm {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#fta {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#oreb {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#dreb {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#ast {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#tov {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#pts {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#stl {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#pf {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+#plus/mins {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+@media (max-width: 800px) {
+  #nav-bar{
+    flex-direction: column;
+  }
+}
+
+
